@@ -8,15 +8,16 @@ import { MaterialModule } from './material.module';
 import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 
-
 import 'hammerjs';
+import { QuestionDetailComponent } from './question/question-detail.component';
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QuestionDetailComponent
   ],
   imports: [
     BrowserModule,
